@@ -1,0 +1,19 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEE140;
+    background-image: linear-gradient(45deg, #FEE140 0%, #FA709A 100%);
+}
+
+.top-container {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}

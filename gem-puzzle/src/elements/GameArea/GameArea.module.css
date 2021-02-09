@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    width: 350px;
+    height: 350px;
+    background-color: #ff5622;
+    border: 2px solid #ff5622;
+}
+
+.box {
+    position: relative;
+    width: 99%;
+    height: 99%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.box_empty {
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    visibility: hidden;
+}
+

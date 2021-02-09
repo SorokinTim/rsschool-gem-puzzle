@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container > span {
+    color: #fff;
+}
+
+.timer {
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+    font-size: 32px;
+}
